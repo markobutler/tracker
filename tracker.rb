@@ -4,7 +4,7 @@ def record_balance_entry( current_balance )
 	# Sets the value of the row_number variable to 1
 	# QUESTION: How can row_number be set outside the loop but still work inside the loop? What's the deal with 'local' variables?			
 	row_number = 1
-
+	
 	# Opens balance_history.txt with as a File object 
 	# Uses the readlines method to loop through each line of the file, 
 	# storing the contents of each line in the temporary 'line' variable,
